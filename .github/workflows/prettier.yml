@@ -20,3 +20,5 @@ jobs:
       uses: creyD/prettier_action@v2.2
       with:
         prettier_options: --single-quote
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
